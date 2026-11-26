@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Study | Termologia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">♡ Pink Study</div>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#flashcards">Flashcards</a>
+        <a href="#conteudo">Conteúdo</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="inicio">
+        <span class="tag">✿ SEU CANTINHO DE ESTUDOS</span>
+        <h1>Aprender pode ser<br><span>mais encantador!</span></h1>
+        <p>Prepare-se para dominar a Termologia com flashcards interativos e muito conhecimento.</p>
+        <a href="#flashcards" class="main-button">Começar a estudar ♡</a>
+        <div class="decoration">✿</div>
+    </section>
+
+    <section class="study" id="flashcards">
+        <span class="tag">✧ ESTUDE NO SEU RITMO</span>
+        <h2>Seus Flashcards</h2>
+        <p class="subtitle">Clique no cartão para revelar a resposta!</p>
+
+        <div class="progress-info">
+            <span id="counter">Cartão 1 de 10</span>
+            <span id="progress-percent">10%</span>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <div class="flashcard" id="flashcard">
+            <div class="card-inner">
+                <div class="card-front">
+                    <span class="card-label">PERGUNTA ♡</span>
+                    <span class="card-number" id="number">01</span>
+                    <h3 id="question"></h3>
+                    <p>Clique para descobrir a resposta ✨</p>
+                </div>
+                <div class="card-back">
+                    <span class="card-label">RESPOSTA ✿</span>
+                    <h3 id="answer"></h3>
+                    <p>Continue aprendendo! ♡</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="previous">← Anterior</button>
+            <button id="next">Próximo →</button>
+        </div>
+        <p class="hint">♡ Cada cartão é uma nova oportunidade de aprender!</p>
+    </section>
+
+    <section class="topics" id="conteudo">
+        <span class="tag">♡ GUIA DE ESTUDOS</span>
+        <h2>O que vamos aprender?</h2>
+        <div class="topic-grid">
+            <div class="topic">🌡️<h3>Temperatura</h3><p>Conceitos e escalas térmicas.</p></div>
+            <div class="topic">🔥<h3>Calor</h3><p>Transferência de energia térmica.</p></div>
+            <div class="topic">🌷<h3>Dilatação</h3><p>Expansão dos materiais.</p></div>
+            <div class="topic">🎀<h3>Calorimetria</h3><p>Trocas de calor e energia.</p></div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Feito com ♡ para suas horas de estudo</p>
+    <span>Pink Study · Termologia</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
